@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-.rounded-circle {
-shape-image-threshold: circle;
+.container{
+align-content: center;
 }
+
+
+.block {
+    background-color: #000;
+}
+
+.uppercase {
+color: #ffff;
+text-decoration: underline;
+
+}
+
+.general {
+  font-family: "exo ", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+}
+
 
 div.gallery {
   margin: 5px;
@@ -20,30 +38,10 @@ div.gallery img {
   height: auto;
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
+
+
+.text-center {
+    text-align: center;
+    color: #000;
 }
 
-
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-  .column {
-    width: 100%;
-  }
-}
