@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+.container{
+align-content: center;
+}
+
+
+.block {
+    background-color: #000;
+}
+
+.nav-link {
+color: #fff;
+}
+
+
+.uppercase {
+color: #ffff;
+text-decoration: underline;
+
+}
+
+.general {
+  font-family: "exo ", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+}
+
+
+
+
+.text-center {
+    text-align: center;
+    color: #000;
+}
+
