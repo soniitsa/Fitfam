@@ -15,9 +15,6 @@ align-content: center;
     background: #e84610;
 }
 
-.uppercase{
-  padding-right: 10px;  
-}
 /* ----------------------------------------colors */
 .nav-link {
 color: #000;
@@ -26,13 +23,15 @@ text-decoration: underline;
 }
 
 
-.general {
+h1 h2  {
   font-family: "exo ", sans-serif;
   font-weight: 300;
   color: #000;
 }
 
-
+.p {
+    font-family: "exo", sans-serif
+}
 
 
 .text-center {
@@ -113,9 +112,16 @@ input[type=submit]:hover {
     background: #00ffff;
 }
 
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #000;
+  color: white;
+}
+
 /* ----------------------------------------Media Queries */
 
-@media(min-width: 992px) {
+@media(min-width: 650px) {
     .center-form {
         padding-top: 30px;
         min-height: 240px;
@@ -123,3 +129,11 @@ input[type=submit]:hover {
         max-width: 50%;
     }
 }
+
+@media screen and (max-width: 650px) {
+  .about-section {
+    width: 100%;
+    display: block;
+  }
+}
+
