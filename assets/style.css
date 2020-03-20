@@ -5,15 +5,19 @@ align-content: center;
 
 }
 
+.h1 {
+  font-size: 90px;
+  line-height: 105px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
 /* ----------------------------------------back-ground color */
 .footer {
     background-color: #000;
     
 }
 
-.block-links li a i:hover {
-    background: #e84610;
-}
 
 /* ----------------------------------------colors */
 .nav-link {
@@ -39,8 +43,17 @@ h1 h2  {
     color: #000;
 }
 
-{
-  box-sizing: border-box;
+.images {
+    display: none;
+}
+
+.picture {
+    align-self: auto;
+}
+
+.col-sm-6{
+    align-content: center;
+    position: relative;
 }
 
 /* Style inputs */
@@ -86,7 +99,6 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
-
 
 .social-links {
     padding-bottom: 15px;
@@ -137,3 +149,65 @@ input[type=submit]:hover {
   }
 }
 
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message  h1 {
+        font-size: 3em;
+    }
+
+@media(max-width:767px) {
+    .content-section-a {
+        padding-bottom: 15%;
+    }
+
+@media only screen and (max-width: 768px) {
+  [class*="col-12"] {
+    width: 100%;
+  }
+
+
+@media screen and (min-width: 601px) {
+  div.h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {position: relative;}
+  .navbar a. {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+  
