@@ -122,15 +122,17 @@ a.menu-link {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #000;
+    color: blue;
+    background: white;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
  .general-sub {
-color: #fff;
+background: white;
+color: blue;
+    
 }
 
 .social-links li a i:hover {
@@ -138,3 +140,4 @@ color: #fff;
 
 
 }
+
