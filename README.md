@@ -19,26 +19,19 @@ user experience.
 
 ### FEATURES:
 
-The website is a four page site that include heading, section and footer pages.
+The website is a three page site that include About, Membership and Contact .
 The pages are index.html, membership.html, contact.html and about.html.
-You can navigate through the page by clicking on the pages links.
-The "home" page feautures six pictures all together.
+The "memembership" page feautures how you can become a member and provides a bit of information about the prices,
+ opening time and day. Contact page provides contact informations like telephone numbers , adress and a contact form.
+ About page describes a bit of information about FITfAM.
+you can navigate through the pages by clicking on the links
 
-### IMAGES
-The first three pictures are people of training in a gym doing strength training.
 
-### Media
+
+### Media, images
 google.com/gymimages
 
-### Membership page
-The "memembership" page feautures how you can become a member and provides a bit of information about the prices,
- opening time and day.
 
-### Contact
-It provides contact informations like telephone numbers , adress and a contact form.
-
-### About page
-It describe a bit of information about FITFAM.
 
 ### Testing
  Functionality Testing
@@ -51,9 +44,9 @@ Security testing
 ### Code Deployment
 
 my deployment process was quite easy,i Selected the GitHub repository tabs, entered my GitHub username and password
-Select the GitHub repository i want to deploy befor add the server information
+Select the GitHub repository i want to deploy before i added the server information
 
 
 ### TECHNOLOGIES USED
- HTML, CSS, BOOTSTRAP, CODEPEN
+ HTML, CSS, BOOTSTRAP
 
