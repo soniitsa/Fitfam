@@ -32,14 +32,11 @@ you can navigate through the pages by clicking on the links
 google.com/gymimages
 
 
+###CONTENTS
+All text in the 'Fitfam page are written by sonia ojo,
+ Bootstrap was used for the 'contact form/feedback form. 
+ Also much of 'jumbotron' was used from bootstrp as well and some other bootstrap css used in styling the footer.
 
-### Testing
- Functionality Testing
- Usability testing
- Interface testing
- Compatibility testing
- Performance testing
-Security testing
 
 ### Code Deployment
 
