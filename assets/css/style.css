@@ -158,15 +158,15 @@ a.menu-link {
     line-height: 7px;
     text-align: center;
     color: blue;
-    background: white;
+    background: black;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
  .general-sub {
-background: #fff;
-color: blue;
+background: white;
+color: black;
     
 }
 
