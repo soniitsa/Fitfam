@@ -66,10 +66,10 @@ font-size: 0.9em;
 
 a.menu-link {
                display: none;
-            }
+        }
             
-            }
-            nav[role=navigation] ul {
+            
+nav[role=navigation] ul {
                 margin: 0 0 0 -0.25em;
                 border: 0;
         float: right;
@@ -86,7 +86,7 @@ a.menu-link {
         
 
 
-        .jumbotron {
+.jumbotron {
     background-color: transparent;
 }
 
@@ -139,60 +139,66 @@ a.menu-link {
     text-align: center;
 }
 
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #444;
-}
-
-
-
-.block-divider--short {
-    width: 35px;
-}
-
-
-
-
 .page-header h2 {
     margin-top: 0;
-}
-
-
+} 
 .quotes .page-header {
     margin-bottom: 25px;
 }
 
+#site-about {
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 30px;
+    font-family: 'Averta-Bold';
+    font-weight: 700;
+}
+
+#site-schedule {
+    padding: 70px 50px 50px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-family: 'Averta-Bold';
+    font-weight: 700;
+}
 
 
+/*-------------------------------footer------*/
 
-.social-links li a i {
-    width: 32px;
-    height: 32px;
+
+.links {
+    padding-bottom: 18px;
+}
+
+.links li a i {
+    width: 33px;
+    height: 33px;
     padding: 12px 0;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: white;
-    background: black;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
- .general-sub {
-background: white;
-color: black;
-    
+    color: #ffffff;
+    background: #a9a9a9;
+    transition: all 0.35 ease-in-out;
+    -moz-transition: all 0.35 ease-in-out;
+    -webkit-transition: all 0.35 ease-in-out;
+    -o-transition: all 0.35 ease-in-out
 }
 
-.social-links li a i:hover {
-    background: #000				
-
-
+.links li a i:hover {
+    background: blue;
 }
+
+#footer-text {
+    padding: 30px;
+}
+
+
+
 
 
 
