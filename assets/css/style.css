@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
+/*---------------------------------all-section-------*/
+
 body {
  font-family: 'Roboto', sans-serif;
     width: 100%;
@@ -10,6 +13,8 @@ body {
  background-color: #fcfcfc;
  
 }
+/*---------------------------------background-------*/
+
 
 .home_bg {
     background: url("../../assets/images/background.jpg") no-repeat bottom right fixed;
@@ -18,6 +23,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+/*---------------------------------navs-------*/
 
 
 #header-nav{
@@ -84,6 +91,7 @@ nav[role=navigation] ul {
         border: 0;
             }
         
+/*---------------------------------jumbostron-------*/
 
 
 .jumbotron {
@@ -169,6 +177,7 @@ nav[role=navigation] ul {
 /*-------------------------------footer------*/
 
 
+
 .links {
     padding-bottom: 18px;
 }
@@ -195,13 +204,4 @@ nav[role=navigation] ul {
 
 #footer-text {
     padding: 30px;
-}
-
-
-
-
-
-
-
-
-
+}    
